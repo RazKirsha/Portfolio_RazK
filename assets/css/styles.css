@@ -201,7 +201,6 @@ img{
 }
 .home__social{
   display: flex;
-  flex-direction: column;
 }
 .home__social-icon{
   width: max-content;
@@ -482,6 +481,13 @@ img{
     top: 25%;
     right: 20px;
     width: 250px;
+  }
+
+  .home__social-icon{
+    width: max-content;
+    margin-right: 30px;
+    font-size: 1.5rem;
+    color: var(--second-color);
   }
 }
 
