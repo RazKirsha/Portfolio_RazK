@@ -460,6 +460,23 @@ img{
     height: 10em;
 }
 
+.email_me {
+  display: flex;
+  flex-direction: column;
+}
+
+.email_one {
+  display: flex;
+}
+
+.contact_email {
+  margin-right: 5px;
+}
+
+.contact_content {
+  height: 150px;
+}
+
 @media screen and (max-width: 900px) {
   .home__img{
     top: 25%;

@@ -219,12 +219,15 @@
                 <h2 class="section-title">Contact</h2>
 
                 <div class="contact__container bd-grid">
-                    <form action="https://formsubmit.co/raz.kirsha@gmail.com" class="contact__form" method="POST">
-                        <input type="email" placeholder="Email" class="contact__input" name="email" required>
-                        <input type="text" placeholder="Name" class="contact__input" name="name" required>
+                    <form action="https://formsubmit.co/raz.kirsha@gmail.com" class="contact__form email_me" method="POST">
+                        <div class="email_one">
+                            <input type="email" placeholder="Email" class="contact__input contact_email" name="email" required>
+                            <input type="text" placeholder="Name" class="contact__input" name="name" required>
+                        </div>
                         <input type="text" placeholder="Title" class="contact__input" name="title" required>
-                        <input type="textarea" placeholder="Content" class="contact__input" name="content" required>
+                        <textarea placeholder="Content" class="contact__input contact_content" name="content" required></textarea>
                         <input type="hidden" name="_next" value="https://razkirsha.github.io/Portfolio_RazK/">
+                        <input type="hidden" name="_template" value="table">
                         <button type="submit" class="contact__button button">Send</button>
                     </form>
                 </div>
